@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS + JS Animation Project</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <h1>CSS + JavaScript Animations</h1>
+
+  <!-- Part 1: CSS Transitions -->
+  <button class="btn-hover">Hover Me</button>
+
+  <!-- Animated Box for JS Trigger -->
+  <div id="box" class="box"></div>
+  <button onclick="triggerBoxAnimation()">Animate Box</button>
+
+  <!-- Popup Modal -->
+  <button onclick="toggleModal()">Open Modal</button>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <p>This is a modal window!</p>
+      <button onclick="toggleModal()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
